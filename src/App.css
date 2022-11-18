@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.form .form-group input{
+ outline: none;
+ border-radius: 5px;
+ border: 1px solid gray;
+ padding: 10px 20px;
+}
+.table tbody tr td i{
+  font-size: 20px;
+}
+.table tbody tr td .table-trash:hover{
+      color: red;
+}
+.table tbody tr td .table-edit:hover{
+  color: green;
+}
+.err{
+  color: red;
+  font-size: 12px;
+}
